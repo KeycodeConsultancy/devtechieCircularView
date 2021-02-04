@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		0BEE34EF901041D8D656C1D2 /* Pods_devtechieCircularView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_devtechieCircularView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D3FD0133D7BD52E002C31D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0D3FD0133D7BD52E002C31D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		20C323609404559D66CADE39 /* Pods-devtechieCircularView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devtechieCircularView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-devtechieCircularView_Tests/Pods-devtechieCircularView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3A3E85CCCB604CA3BAC9E8FB /* Pods_devtechieCircularView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_devtechieCircularView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* devtechieCircularView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = devtechieCircularView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,8 +42,8 @@
 		607FACE51AFB9204008FA782 /* devtechieCircularView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = devtechieCircularView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		AC6969F70345F98BA2E7CB07 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B99F3D3FC97B6423D06C85BA /* devtechieCircularView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = devtechieCircularView.podspec; path = ../devtechieCircularView.podspec; sourceTree = "<group>"; };
+		AC6969F70345F98BA2E7CB07 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B99F3D3FC97B6423D06C85BA /* devtechieCircularView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = devtechieCircularView.podspec; path = ../devtechieCircularView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DFDBAAFDE7F65954F60971A8 /* Pods-devtechieCircularView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devtechieCircularView_Example.release.xcconfig"; path = "Target Support Files/Pods-devtechieCircularView_Example/Pods-devtechieCircularView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F2409000F05E241EEB6754B5 /* Pods-devtechieCircularView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devtechieCircularView_Example.debug.xcconfig"; path = "Target Support Files/Pods-devtechieCircularView_Example/Pods-devtechieCircularView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FAC639B2708D870357907F7A /* Pods-devtechieCircularView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devtechieCircularView_Tests.release.xcconfig"; path = "Target Support Files/Pods-devtechieCircularView_Tests/Pods-devtechieCircularView_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				20C323609404559D66CADE39 /* Pods-devtechieCircularView_Tests.debug.xcconfig */,
 				FAC639B2708D870357907F7A /* Pods-devtechieCircularView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

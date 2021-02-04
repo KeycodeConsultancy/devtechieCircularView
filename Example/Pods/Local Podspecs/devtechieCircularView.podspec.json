@@ -1,0 +1,22 @@
+{
+  "name": "devtechieCircularView",
+  "version": "0.1.0",
+  "summary": "A short description of devtechieCircularView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kevinandrewreid@aol.com/devtechieCircularView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kevinandrewreid@aol.com": "kevinandrewreid@aol.com"
+  },
+  "source": {
+    "git": "https://github.com/kevinandrewreid@aol.com/devtechieCircularView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "devtechieCircularView/Classes/**/*"
+}
